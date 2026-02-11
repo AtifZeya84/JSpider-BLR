@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Jspider-Java-BLR.iml" filepath="$PROJECT_DIR$/Jspider-Java-BLR.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Core-Java.iml" filepath="$PROJECT_DIR$/Core-Java.iml" />
     </modules>
   </component>
 </project>

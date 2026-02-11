@@ -1,26 +1,27 @@
-
 package com.Arrays.ArrayPractice;
-public class Demo26{
+
+import java.util.Arrays;
+
+public class Demo26 {
     public static void main(String[] args) {
 
-        int[] arr = {1, 2, 1, 3, 2, 4 , 6, 8, 8};
-
-        System.out.print("Output: { ");
-
+        int[] arr = {1, 2, 1, 3, 2, 4, 6, 8, 8};
+        int k = 0;
+        System.out.println("Input: " + Arrays.toString(arr));
         for (int i = 0; i < arr.length; i++) {
-
-            int count = 0;
-
-            for (int j = 0; j < arr.length; j++) {
+            boolean flag = true;
+            for (int j = 0; j < k; j++) {
                 if (arr[i] == arr[j]) {
-                    count++;
+                    flag = false;
+                    break;
                 }
             }
-            if (count == 1) {
-                System.out.print( arr[i] + " ");
-            }
+            if (flag)   arr[k++] = arr[i];
         }
+        System.out.print("Output: [");
+        for (int i = 0; i < k; i++)
+            System.out.print(arr[i] + " ");
 
-        System.out.println("}");
+        System.out.println("]");
     }
 }
