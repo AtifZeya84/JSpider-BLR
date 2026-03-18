@@ -1,4 +1,4 @@
-package com.Arrays._2DArray;
+package com.Comparable__Comparator.Comparable._2DArray;
 
 public class Demo2 {
     public static void main(String[] args) {

@@ -22,7 +22,7 @@ public class Queue {
         return count;
     }
 
-    public boolean isempty(){
+    public boolean isEmpty(){
         return count == 0;
     }
 

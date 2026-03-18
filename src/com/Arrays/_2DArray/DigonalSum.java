@@ -1,4 +1,4 @@
-package com.Arrays._2DArray;
+package com.Comparable__Comparator.Comparable._2DArray;
 
 import java.util.Arrays;
 
